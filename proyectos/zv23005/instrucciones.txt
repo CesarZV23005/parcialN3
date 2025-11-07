@@ -6,4 +6,15 @@ dentro de la bash crear el proyecto con composer create-project laravel/laravel 
 
 config la db, luego de configurarla ejecutar php artisan migrate
 
+comando para dar permisos a la carpeta chmod -R 777 zv23005
+
 crear el modelo producto php artisan make:model Productos -mfs
+
+crear el modelo categoria php artisan make:model Categorias -mfs
+
+crear el modelo proveedor php artisan make:model Proveedores -mfs
+
+comando para crear el controller php artisan make:controller ProductosController --resource
+
+
+
