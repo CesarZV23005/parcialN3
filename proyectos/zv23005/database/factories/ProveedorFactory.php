@@ -23,4 +23,3 @@ class ProveedorFactory extends Factory
         ];
     }
 }
-f
