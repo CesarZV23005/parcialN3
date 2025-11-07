@@ -5,3 +5,5 @@ ejecutar docker exec -it laravel_app bash para entrar al contenedor
 dentro de la bash crear el proyecto con composer create-project laravel/laravel zv23005
 
 config la db, luego de configurarla ejecutar php artisan migrate
+
+crear el modelo producto php artisan make:model Productos -mfs

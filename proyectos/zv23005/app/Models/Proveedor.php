@@ -9,4 +9,6 @@ class Proveedor extends Model
 {
     /** @use HasFactory<\Database\Factories\ProveedorFactory> */
     use HasFactory;
+    protected $table = "proveedor";
+    protected $fillale = ["nombreproveedor","direccion","codigo"];
 }

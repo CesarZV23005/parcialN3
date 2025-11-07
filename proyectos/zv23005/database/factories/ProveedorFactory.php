@@ -17,7 +17,10 @@ class ProveedorFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            "nombreproveedor" => $this->faker->text(),
+            "direccion" => $this->faker->text(),
+            "codigo" => $this->faker->text(),
         ];
     }
 }
+f
